@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body{
+    background: url(img/Img_opinion/Fondo\ opinion\ 2.jpg);
+    font-size: large;
+    color: white;
+}
+#Cabezera_Opinion{
+    height: 40px;
+    text-align: center;
+}
+.Menu{
+    list-style: none;
+    padding: 0;
+    background: transparent;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.Menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    display: block;
+}
+.Menu li{
+    display: inline-block;
+    text-align: center;
+    width: 230px;
+}
+.Menu li a:hover{
+    background: rgb(20, 1, 43);
+    color: rgb(255, 255, 255);
+}
+footer{
+    text-align: center;
+}

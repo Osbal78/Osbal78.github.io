@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body{
+    background: url(img/img_galeria/Fondo\ galeria.jpg);
+    font-size: large;
+    color: white;
+}
+#Cabezera_galeria{
+    height: 40px;
+    text-align: center;
+}
+.Menu{
+    list-style: none;
+    padding: 0;
+    background: transparent;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.Menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    display: block;
+}
+.Menu li{
+    display: inline-block;
+    text-align: center;
+    width: 230px;
+}
+.Menu li a:hover{
+    background: rgb(0, 2, 3);
+    color: rgb(255, 255, 255);
+}
+img{
+    display:block;
+margin:auto;
+}
+h4{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
