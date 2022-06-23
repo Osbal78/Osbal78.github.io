@@ -25,7 +25,7 @@ body{
 .Menu li{
     display: inline-block;
     text-align: center;
-    width: 230px;
+    width: 160px;
 }
 .Menu li a:hover{
     background: rgb(20, 1, 43);
