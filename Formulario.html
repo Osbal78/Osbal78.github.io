@@ -4,9 +4,163 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="Estilo_form.css">
+    <title>Formulario</title>
 </head>
 <body>
+    <div id="Cabezera">
+        <header>
+            <h1>CELEB-FORM</h1>
+        </header>
+    </div>
+    <hr>
+    <div id="Menu">
+        <ul class="Menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Ciudad.html"target="_bank">Ciudad</a></li>
+            <li><a href="Mus_u_obra.html"target="_bank">Musicas/Obras</a></li>
+            <li><a href="Opinion.html"target="_bank">Opinion</a></li>
+            <li><a href="Galeria de imagenes.html"target="_bank">Galeria</a></li>
+            <li><a href="Formulario.html"target="_bank">Formulario</a></li>
+        </ul>
+    </div>
+
     
+    <div id="for">
+        <h1 class="tit">Formulario de encuesta</h1>
+        <br>
+    <form action="" method="post">
+        <div class="conten">
+            <label class="texti" for="">Correo:</label>
+            <br>
+            <input class="textocolor" type="email"required="true">
+            <br>
+            <label class="texti" for="">Contraseña</label>
+            <br>
+            <input class="textocolor" type="password " name="" id="pas">
+            <br>
+            <input class="textocolor" type="checkbox" id="recuerda" name="recuerdo">
+            <label for="recuerda">Remember me</label><br>
+        </div>
+        <br>
+        <div class="conten">
+            <label class="texti" for="name">Nombres y Apellido</label>
+            <br>
+            <label>Primero nombre luego apellido</label>
+            <br>
+            <input class="textocolor" type="text" required="true">
+            <br>
+            <label for="Edad">Seleccione su rango de edad</label>
+            <select id="Edad" name="Edad">
+                <option value="Menor a 15">Menor de 14</option>
+                <option value="15 a 18">15 a 18</option>
+                <option value="19 a 25">19 a 25</option>
+                <option value="Mayor de 26">Mayor de 26</option>
+              </select>
+        </div>
+        <br>
+        <div class="conten">
+            <label class="texti" for="">Genero</label>
+            <br>
+            <input type="radio" name="genero" value="feme">
+            <label for="femenino">Femenino</label>
+            <input type="radio" name="genero" value="masc">
+            <label for="masculino">Masculino</label>
+        </div>
+        <br>
+        <div class="conten">
+            <label class="texti" for=""><b>Que genero de musica frecuenta mas</b></label><br>
+                <input type="checkbox" name="musica">
+                <label for="clasico">Clasico</label>
+                <br>
+                <input type="checkbox" name="musica">
+                <label for="latino">Latino</label>
+                <br>
+                <input type="checkbox" name="musica">
+                <label for="folkore">Rock</label>
+                <br>
+                <input type="checkbox" name="musica">
+                <label for="folkore">Electronica</label>
+                <br>
+                <input type="checkbox" name="musica">
+                <label for="folkore">Rap</label>
+                <br>
+                <input type="checkbox" name="musica">
+                <label for="folkore">Alternativo</label>
+                <br>
+                <label for="">Otros</label>
+                <input class="textocolor" type="text">
+                <input type="hidden" value="oculto">
+        </div>
+        <br>
+        <div class="conten">
+            <label class="texti" for=""><b>¿Que tipo de musica te parece mas bailable?</b></label><br>
+            <br>
+            <input type="radio" name="genero" value="Rock">
+            <label for="femenino">Rock</label>
+            <br>
+            <input type="radio" name="genero" value="Hip Hop">
+            <label for="masculino">Hip Hop</label>
+            <br>
+            <input type="radio" name="genero" value="Bachata">
+            <label for="femenino">Bachata</label>
+            <br>
+            <input type="radio" name="genero" value="Pop">
+            <label for="masculino">Pop</label>
+            <br>
+            <input type="radio" name="genero" value="House">
+            <label for="femenino">House</label>
+            <br>
+            <input type="radio" name="genero" value="Techno">
+            <label for="masculino">Techno</label>
+            <br>
+            <input type="radio" name="genero" value="Electronica">
+            <label for="femenino">Electronica</label>
+            <br>
+            <input type="radio" name="genero" value="Clasica">
+            <label for="masculino">Clasica</label>
+        </div>
+        <br>
+        <div class="conten">
+            <label class="texti" for=""><b>¿Que opina sobre las canciones que contienen mensajes o reflexiones profundas en sus letras?</b></label><br>
+            <br>
+            <textarea class="textocolor" name="message" rows="5" cols="60">
+            </textarea>
+        </div>
+        <br>
+        <div class="conten">
+            <label class="texti" for=""><b>Como influye la musica en su vida</b></label><br>
+            <br>
+            <textarea class="textocolor" name="message" rows="5" cols="60">
+            </textarea>
+        </div>
+        <br>
+        <div class="conten">
+            <label class="texti" for=""><b>¿Piensa que la musica puede ligarse facilmente a sus emociones y por que?</b></label><br>
+            <br>
+            <input type="radio" name="Eleccion" value="si">
+            <label for="femenino">Si</label>
+            <br>
+            <input type="radio" name="Eleccion" value="Clasica">
+            <label for="masculino">No</label>
+            <br>
+            <textarea class="textocolor" name="message" rows="3" cols="40">
+            </textarea>
+        </div>
+        <br>
+        <div class="conten">
+            <label class="texti" for=""><b>¿Que es lo que mas resalta en la musica que escucha, la letra o la melodia?¿Por que?</b></label><br>
+            <br>
+            <textarea class="textocolor" name="message" rows="5" cols="60">
+            </textarea>
+        </div>
+        <br>
+        <input id="boton" type="submit" value="Enviar">
+    </form>
+    </div>
+    <form action="" method="post">
+    </form>
+    <hr>
+    <footer>Todos los derechos reservados &copy; A.R.</footer>
 </body>
 </html>
