@@ -73,11 +73,12 @@ h5{
 }
 .textocolor{
     background-color: rgba(0, 0, 0, 0.445);
+    color: white;
     border-radius: 20px 20px 20px 20px;
 }
 
 .conten{
-    background-color: rgb(10, 47, 61);
+    background-color: rgb(27, 70, 85);
     padding: 15px;
     border:groove 3px rgba(0, 0, 0, 0.178);
     border-radius: 20px 20px 20px 20px;
