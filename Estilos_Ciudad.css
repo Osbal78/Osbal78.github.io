@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 body{
     background: url(img/Img_ciudad/Fondo\ ciudad\ 4.jpg) no-repeat fixed;
     background-size: 100%;
@@ -8,6 +9,10 @@ body{
 #Cabezera_ciudad{
     height: 40px;
     text-align: center;
+}
+.imgcentral{
+    display: flex;
+justify-content: center;
 }
 .Menu{
     list-style: none;

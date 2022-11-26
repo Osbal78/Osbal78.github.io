@@ -8,6 +8,11 @@ body{
     height: 40px;
     text-align: center;
 }
+
+.imgcentral{
+    display: flex;
+justify-content: center;
+}
 .Menu{
     list-style: none;
     padding: 0;

@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Estilo_form.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Formulario</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <div id="Cabezera">
         <header>
-            <h1>CELEB-FORM</h1>
+            <h1 class="animate__animated animate__bounce">CELEB-FORM</h1>
         </header>
     </div>
     <hr>
@@ -27,10 +32,10 @@
 
     
     <div id="for">
-        <h1 class="tit">Formulario de encuesta</h1>
+        <h1 class="tit" data-aos="fade-right">Formulario de encuesta</h1>
         <br>
-    <form action="" method="post">
-        <div class="conten">
+    <form  action="" method="post">
+        <div data-aos="fade-right" data-aos-delay="300" class="conten">
             <label class="texti" for="">Correo:</label>
             <br>
             <input class="textocolor" type="email"required="true">
@@ -43,7 +48,7 @@
             <label for="recuerda">Remember me</label><br>
         </div>
         <br>
-        <div class="conten">
+        <div data-aos="fade-left" data-aos-delay="600" class="conten">
             <label class="texti" for="name">Nombres y Apellido</label>
             <br>
             <label>Primero nombre luego apellido</label>
@@ -59,7 +64,7 @@
               </select>
         </div>
         <br>
-        <div class="conten">
+        <div data-aos="fade-right" data-aos-delay="600" class="conten">
             <label class="texti" for="">Genero</label>
             <br>
             <input type="radio" name="genero" value="feme">
@@ -68,7 +73,7 @@
             <label for="masculino">Masculino</label>
         </div>
         <br>
-        <div class="conten">
+        <div data-aos="fade-left" data-aos-delay="600" class="conten">
             <label class="texti" for=""><b>Que genero de musica frecuenta mas</b></label><br>
                 <input type="checkbox" name="musica">
                 <label for="clasico">Clasico</label>
@@ -93,7 +98,7 @@
                 <input type="hidden" value="oculto">
         </div>
         <br>
-        <div class="conten">
+        <div data-aos="fade-right" data-aos-delay="600" class="conten">
             <label class="texti" for=""><b>¿Que tipo de musica te parece mas bailable?</b></label><br>
             <br>
             <input type="radio" name="genero" value="Rock">
@@ -121,21 +126,21 @@
             <label for="masculino">Clasica</label>
         </div>
         <br>
-        <div class="conten">
+        <div data-aos="fade-left" data-aos-delay="600" class="conten">
             <label class="texti" for=""><b>¿Que opina sobre las canciones que contienen mensajes o reflexiones profundas en sus letras?</b></label><br>
             <br>
             <textarea class="textocolor" name="message" rows="5" cols="60">
             </textarea>
         </div>
         <br>
-        <div class="conten">
+        <div data-aos="fade-right" data-aos-delay="600" class="conten">
             <label class="texti" for=""><b>Como influye la musica en su vida</b></label><br>
             <br>
             <textarea class="textocolor" name="message" rows="5" cols="60">
             </textarea>
         </div>
         <br>
-        <div class="conten">
+        <div data-aos="fade-left" data-aos-delay="600" class="conten">
             <label class="texti" for=""><b>¿Piensa que la musica puede ligarse facilmente a sus emociones y por que?</b></label><br>
             <br>
             <input type="radio" name="Eleccion" value="si">
@@ -148,7 +153,7 @@
             </textarea>
         </div>
         <br>
-        <div class="conten">
+        <div data-aos="fade-right" data-aos-delay="600" class="conten">
             <label class="texti" for=""><b>¿Que es lo que mas resalta en la musica que escucha, la letra o la melodia?¿Por que?</b></label><br>
             <br>
             <textarea class="textocolor" name="message" rows="5" cols="60">
@@ -162,5 +167,8 @@
     </form>
     <hr>
     <footer>Todos los derechos reservados &copy; A.R.</footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

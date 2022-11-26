@@ -6,6 +6,10 @@ body{
     font-size: large;
     color: white;
 }
+.imgcentral{
+    display: flex;
+justify-content: center;
+}
 #header{
     height: 580px;
     text-align: center;
