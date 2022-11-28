@@ -11,14 +11,60 @@ body{
 justify-content: center;
 }
 #header{
+    
     height: 580px;
     text-align: center;
     border-top-left-radius: 50px;
 }
+#log{
+    justify-self: right;
+}
 #cabecera{
+    display: grid;
     height: 40px;
     text-align: center;
 }
+
+
+#botlog{
+    color: rgb(250,223,53);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(250,223,53);
+    animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+
 .Menu{
     list-style: none;
     padding: 0;

@@ -8,16 +8,26 @@
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+
+  
+    <script type="text/javascript" src="usuario.js"></script>
     <title>Formulario</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <div id="Cabezera">
+        <div id="log">
+        <form action="" id="form">
+            <button type="button" id="botlog" onclick="red()">Ingresar</button>
+        </form></div>
         <header>
             <h1 class="animate__animated animate__bounce">CELEB-FORM</h1>
         </header>
     </div>
+    <br>
+    <br>
+    <br>
     <hr>
     <div id="Menu">
         <ul class="Menu">
@@ -35,19 +45,6 @@
         <h1 class="tit" data-aos="fade-right">Formulario de encuesta</h1>
         <br>
     <form  action="" method="post">
-        <div data-aos="fade-right" data-aos-delay="300" class="conten">
-            <label class="texti" for="">Correo:</label>
-            <br>
-            <input class="textocolor" type="email"required="true">
-            <br>
-            <label class="texti" for="">Contraseña</label>
-            <br>
-            <input class="textocolor" type="password " name="" id="pas">
-            <br>
-            <input class="textocolor" type="checkbox" id="recuerda" name="recuerdo">
-            <label for="recuerda">Remember me</label><br>
-        </div>
-        <br>
         <div data-aos="fade-left" data-aos-delay="600" class="conten">
             <label class="texti" for="name">Nombres y Apellido</label>
             <br>
