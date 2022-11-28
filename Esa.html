@@ -4,22 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo_log.css">
     <title>Login</title>
     
 </head>
 <body>
+    <h1 id="titu">Bienvenido</h1>
+    <div id="for">
         <form action="" id="form">
-            <div>
-                <input type="text" id="Usuario" placeholder="Nombre">
+            <h3>Nombre</h3>
+            <div class="conten">
+                <input class="textocolor" type="text" id="Usuario" >
             </div>
-            <div>
-                <input type="password" id="Contraseña" class="form-control" placeholder="Contraseña">
+            <h3>Contraseña</h3>
+            <div class="conten">
+                <input class="textocolor" type="password" id="Contraseña" class="form-control">
             </div>
-                <input type="email" id="Email" class="form-control" placeholder="Email">
+            <h3>Correo Electronico</h3>
+            <div class="conten">
+                <input class="textocolor" type="email" id="Email" class="form-control">
+            </div>
+                
             <div class="form-block bloque-ultimo">
-                <button type="button" onclick="compara()">Ingresar</button>
+                <button id="buton" type="button" onclick="compara()">Ingresar</button>
             </div>
         </form>
+    </div>
+        
         <script type="text/javascript" src="usuario.js"></script>
 </body>
 </html>
