@@ -14,7 +14,7 @@ Usuario3.Contraseña= 1258;
 Usuario3.Email="americo123@gmail.com";
 
 function red(){
-    location.href="esa.html";
+    location.href="index.html";
 }
 
 function mensaje(){
