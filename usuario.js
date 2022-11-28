@@ -169,7 +169,7 @@ function compara(){
 
 //Envia a la pagina principal del proyecto, en mi caso lo cambie a inicio.html ya que ahora el login es el index.html
 function pruebalink (){
-    location.href="Formulario.html";
+    location.href="inicio.html";
     alert("Usted a ingresado a su cuenta")
 }
 
